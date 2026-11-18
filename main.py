@@ -5,10 +5,6 @@ import os
 import uuid
 import shutil
 
-from model_service import predict_uploaded_xray
-
-
-
 # .\.venv\Scripts\Activate.ps1
 # python -m uvicorn main:app --host 0.0.0.0 --port 8000
 
@@ -124,6 +120,8 @@ async def predict(
 
 
         # Run ML model
+
+        from model_service import predict_uploaded_xray
 
         result = predict_uploaded_xray(
             file_path
