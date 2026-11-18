@@ -1,0 +1,9 @@
+fastapi==0.142.2
+uvicorn==0.54.0
+python-multipart==0.0.32
+tensorflow==2.21.0
+torch==2.14.1
+torchvision==0.29.1
+torchxrayvision==1.5.5
+joblib==1.6.0
+scikit-learn==1.9.1
